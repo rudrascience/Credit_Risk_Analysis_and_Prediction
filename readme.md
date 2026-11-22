@@ -92,7 +92,7 @@ Credit_Risk_Assessment/
 
 | Model | Accuracy | Precision | Recall | F1 | ROC-AUC |
 |---|---|---|---|---|---|
-| Logistic Regression | – | – | – | – | – |
+| Logistic Regression | 0.92 | 0.82 | 0.80 | 0.81 | 0.87 |
 | Random Forest | – | – | – | – | – |
 | Gradient Boosting | – | – | – | – | – |
 
