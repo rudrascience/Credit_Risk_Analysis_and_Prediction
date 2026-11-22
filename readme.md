@@ -100,10 +100,11 @@ Credit_Risk_Assessment/
 - Probability calibration and cost-based threshold selection
 - Model explainability with SHAP
 
-Add 1 to 2 screenshots (ROC curve, feature importance) in an `images/` folder and embed them:
+<img width="805" height="940" alt="SHAP summary" src="https://github.com/user-attachments/assets/a0da0d48-0e66-4c86-bfee-0cfa7e845e51" />
 
-```markdown
-![ROC Curve](images/roc_curve.png)
+<img width="1040" height="600" alt="SHAP waterfall" src="https://github.com/user-attachments/assets/8a83a109-ef22-452c-ace2-ed74645e7062" />
+
+
 ```
 
 ## 💡 Key Insights
