@@ -100,9 +100,9 @@ Credit_Risk_Assessment/
 - Probability calibration and cost-based threshold selection
 - Model explainability with SHAP
 
-<img width="805" height="940" alt="SHAP summary" src="https://github.com/user-attachments/assets/a0da0d48-0e66-4c86-bfee-0cfa7e845e51" />
+<img width="400" height="470" alt="SHAP summary" src="https://github.com/user-attachments/assets/a0da0d48-0e66-4c86-bfee-0cfa7e845e51" />
 
-<img width="1040" height="600" alt="SHAP waterfall" src="https://github.com/user-attachments/assets/8a83a109-ef22-452c-ace2-ed74645e7062" />
+<img width="400" height="470" alt="SHAP waterfall" src="https://github.com/user-attachments/assets/8a83a109-ef22-452c-ace2-ed74645e7062" />
 
 
 ```
