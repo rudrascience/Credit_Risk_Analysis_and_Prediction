@@ -96,6 +96,10 @@ Credit_Risk_Assessment/
 | Random Forest | – | – | – | – | – |
 | Gradient Boosting | – | – | – | – | – |
 
+- Hyperparameter tuning with cross-validation
+- Probability calibration and cost-based threshold selection
+- Model explainability with SHAP
+
 Add 1 to 2 screenshots (ROC curve, feature importance) in an `images/` folder and embed them:
 
 ```markdown
@@ -141,9 +145,6 @@ Run all cells top to bottom. The notebook expects `credit_risk_dataset.csv` in t
 
 ## 🔭 Future Work
 
-- Hyperparameter tuning with cross-validation
-- Probability calibration and cost-based threshold selection
-- Model explainability with SHAP
 - Fairness audit across demographic groups
 - Scorecard (WoE/IV) model for interpretability
 - Streamlit app for live scoring
