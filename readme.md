@@ -8,8 +8,6 @@ Predicting the likelihood of loan default from borrower and loan characteristics
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 
-**Dataset Link:**  [![Kaggle](https://img.shields.io/badge/Kaggle-%23035a7d.svg?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/laotse/credit-risk-dataset)
-
 ---
 
 ## 📌 Table of Contents
@@ -28,13 +26,13 @@ Predicting the likelihood of loan default from borrower and loan characteristics
 
 ---
 
-## 🔍 Project Overview
+## 🔍 1. Project Overview
 
 Lenders lose money when borrowers default. This project builds a classification model that estimates whether a loan applicant is likely to **default (1)** or **repay (0)**, based on applicant demographics, employment, credit history and loan attributes.
 
 The full workflow lives in a single Jupyter notebook: data cleaning, exploratory data analysis (EDA), feature engineering, model training, and evaluation.
 
-## 🏦 Business Problem
+## 🏦 2. Business Problem
 
 A bank or fintech must decide **whom to lend to, how much, and at what interest rate**. Two errors matter:
 
@@ -45,12 +43,11 @@ A bank or fintech must decide **whom to lend to, how much, and at what interest 
 
 Because defaults are typically the minority class and a missed default is usually costlier than a lost good customer, the project emphasises **recall, precision, ROC-AUC and PR-AUC** rather than accuracy alone.
 
-## 📊 Dataset
+## 📊 3. Dataset
 
-- **File:** `credit_risk_dataset.csv`
+- **Dataset Link:**  [![Kaggle](https://img.shields.io/badge/Kaggle-%23035a7d.svg?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/laotse/credit-risk-dataset)
 - **Target:** `loan_status` (0 = non-default, 1 = default)
 
-Expected schema (standard credit-risk dataset layout; verify against your file):
 
 | Column | Description |
 |---|---|
@@ -67,7 +64,7 @@ Expected schema (standard credit-risk dataset layout; verify against your file):
 | `cb_person_default_on_file` | Previous default on record (Y/N) |
 | `cb_person_cred_hist_length` | Credit history length (years) |
 
-## 📁 Repository Structure
+## 📁 4. Repository Structure
 
 ```
 Credit_Risk_Assessment/
@@ -78,7 +75,7 @@ Credit_Risk_Assessment/
 └── README.md
 ```
 
-## 🧪 Methodology
+## 🧪 5. Methodology
 
 > Update this section so it matches exactly what your notebook does.
 
@@ -89,7 +86,7 @@ Credit_Risk_Assessment/
 5. **Modelling**: baseline Logistic Regression compared with tree-based models (Random Forest, Gradient Boosting / XGBoost).
 6. **Evaluation**: confusion matrix, precision, recall, F1, ROC-AUC, PR-AUC.
 
-## 📈 Results
+## 📈 6. Results
 
 <!-- Replace with your real numbers from the notebook -->
 
@@ -108,16 +105,16 @@ Credit_Risk_Assessment/
 <img width="450" height="470" alt="SHAP waterfall" src="https://github.com/user-attachments/assets/8a83a109-ef22-452c-ace2-ed74645e7062" />
 
 
-```
 
-## 💡 Key Insights
+
+## 💡 7. Key Insights
 
 <!-- Fill in from your analysis. Examples of the format: -->
 - Default rate rises sharply from loan grade A to G.
 - Higher `loan_percent_income` is associated with higher default risk.
 - Borrowers who rent default more often than those who own or hold a mortgage.
 
-## 🚀 Getting Started
+## 🚀 8. Getting Started
 
 **Prerequisites:** Python 3.9+
 
@@ -140,25 +137,25 @@ jupyter notebook Credit_Risk_Assesment.ipynb
 
 Run all cells top to bottom. The notebook expects `credit_risk_dataset.csv` in the same folder.
 
-## ⚠️ Limitations
+## ⚠️ 9. Limitations
 
 - Single static dataset; no out-of-time validation.
 - Features such as age may raise fairness and regulatory concerns in real lending.
 - Accuracy-style metrics can mislead on imbalanced data.
 - Not production-ready: no deployment, monitoring or calibrated probabilities yet.
 
-## 🔭 Future Work
+## 🔭 10. Future Work
 
 - Fairness audit across demographic groups
 - Scorecard (WoE/IV) model for interpretability
 - Streamlit app for live scoring
 
-## 👤 Author
+## 👤 11. Author
 
 **Rudrajit Das**
 - GitHub: [@rudrascience](https://github.com/rudrascience)
 - LinkedIn: [rudrajit-das](https://www.linkedin.com/in/rudrajit-das-32533b204)
 
-## 📄 License
+## 📄 12. License
 
 Released under the [MIT License](LICENSE).
