@@ -8,7 +8,7 @@ Predicting the likelihood of loan default from borrower and loan characteristics
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 
-**Dataset Link:**  ![Kaggle](https://img.shields.io/badge/Kaggle-%23035a7d.svg?style=for-the-badge&logo=kaggle&logoColor=white)(https://www.kaggle.com/datasets/laotse/credit-risk-dataset)
+**Dataset Link:**  [![Kaggle](https://img.shields.io/badge/Kaggle-%23035a7d.svg?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/laotse/credit-risk-dataset)
 
 ---
 
