@@ -1,4 +1,4 @@
-# 💳 Credit Risk Assessment
+# 💳 Credit Risk Analysis and Prediction
 
 Predicting the likelihood of loan default from borrower and loan characteristics, using Python and machine learning.
 
